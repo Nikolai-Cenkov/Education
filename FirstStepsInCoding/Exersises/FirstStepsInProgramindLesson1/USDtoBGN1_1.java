@@ -1,0 +1,14 @@
+package FirstStepsInCoding.Exersises.FirstStepsInProgramindLesson1;
+
+import java.util.Scanner;
+
+public class USDtoBGN1_1 {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        double usd = Double.parseDouble(scanner.nextLine());
+        double lev = usd * 1.79549;
+        System.out.println(lev);
+    }
+}
+
+
